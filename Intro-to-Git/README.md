@@ -564,6 +564,8 @@ The `credential.helper` setting accepts the value `cache` and `store`. If you ar
 - `git config --global credential.helper osxkeychain`
     - MacOS only. Stores credentials in encrypted format permanently in the osxkeychain
 
+By default, Git does not consider the "path" component of an http URL to be worth matching via external helpers. This means that credentials stored for one repository will be used for any other repository. If you are having issues with credentials and multiple accounts, you may want to tell Git to use the full http path: `git config --global credential.useHttpPath true`
+
 
 ## Adding Remotes
 
