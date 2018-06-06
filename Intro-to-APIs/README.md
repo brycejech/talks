@@ -1,5 +1,7 @@
 # Intro to HTTP APIs
 
+[View Talk on Twitch](https://www.twitch.tv/videos/220751531)
+
 ## What is an API
 
 API is an acronym for Application Programming Interface. An API is a means through which we allow third party software to interact with our application. APIs allow us to encapsulate implementation details of a piece of software behind an interface, only exposing the parts of the application that we want other software to be able to use. This allows the users of our API to focus on what the application does; not, necessarily, how it does it. Among other benefits, it also allows us to make changes to the way our application works (provided it still exposes the same interface) without breaking third party software that may use it.
