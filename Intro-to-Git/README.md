@@ -1,5 +1,7 @@
 # Introduction to Git / GitHub
 
+[View on Twitch](https://www.twitch.tv/videos/274088850)
+
 # What is Git?
 
 Git is a distributed version control system (dvcs). A version control system is an application that allows programmers to manage changes to their projects over time. Here, the word distributed means that there is no central server where a project's source code and history live.
